@@ -20,6 +20,73 @@ function cart_commons_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'ip_geoloc_exclude_pages';
+  $strongarm->value = 'admin/*
+sites/default/*
+node/*
+directory
+directory/*
+calendar
+calendar/*';
+  $export['ip_geoloc_exclude_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ip_geoloc_include_pages';
+  $strongarm->value = 'map';
+  $export['ip_geoloc_include_pages'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ip_geoloc_roles_to_reverse_geocode';
+  $strongarm->value = array(
+    1 => '1',
+    2 => '2',
+    3 => 0,
+    4 => 0,
+  );
+  $export['ip_geoloc_roles_to_reverse_geocode'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'ip_geoloc_smart_ip_as_backup';
+  $strongarm->value = 0;
+  $export['ip_geoloc_smart_ip_as_backup'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_compression_type';
+  $strongarm->value = 'min';
+  $export['jquery_update_compression_type'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_jquery_admin_version';
+  $strongarm->value = '';
+  $export['jquery_update_jquery_admin_version'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_jquery_cdn';
+  $strongarm->value = 'google';
+  $export['jquery_update_jquery_cdn'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'jquery_update_jquery_version';
+  $strongarm->value = '1.7';
+  $export['jquery_update_jquery_version'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_file_audio_pattern';
   $strongarm->value = 'files/audio/[file:name]';
   $export['pathauto_file_audio_pattern'] = $strongarm;
@@ -98,7 +165,7 @@ function cart_commons_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_taxonomy_term_cart_years_pattern';
-  $strongarm->value = '[term:vocabulary]/[term:name]';
+  $strongarm->value = 'published-in/[term:name]';
   $export['pathauto_taxonomy_term_cart_years_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -107,6 +174,96 @@ function cart_commons_strongarm() {
   $strongarm->name = 'pathauto_taxonomy_term_pattern';
   $strongarm->value = '[term:vocabulary]/[term:name]';
   $export['pathauto_taxonomy_term_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_frontpage';
+  $strongarm->value = 'home';
+  $export['site_frontpage'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'statistics_enable_access_log';
+  $strongarm->value = 1;
+  $export['statistics_enable_access_log'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'theme_cart_theme_settings';
+  $strongarm->value = array(
+    'toggle_logo' => 1,
+    'toggle_name' => 1,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_comment_user_verification' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 1,
+    'default_logo' => 0,
+    'logo_path' => 'public://logo02-60-transp.png',
+    'logo_upload' => '',
+    'default_favicon' => 0,
+    'favicon_path' => 'public://logo02-60_0.png',
+    'favicon_upload' => '',
+    'general__active_tab' => 'edit-logo',
+    'bootstrap__active_tab' => 'edit-components',
+    'bootstrap_breadcrumb' => '0',
+    'bootstrap_breadcrumb_home' => 1,
+    'bootstrap_breadcrumb_title' => 1,
+    'bootstrap_navbar_position' => '',
+    'bootstrap_navbar_inverse' => 0,
+    'bootstrap_region_well-navigation' => '',
+    'bootstrap_region_well-header' => '',
+    'bootstrap_region_well-highlighted' => '',
+    'bootstrap_region_well-help' => '',
+    'bootstrap_region_well-content' => '',
+    'bootstrap_region_well-sidebar_first' => 'well',
+    'bootstrap_region_well-sidebar_second' => '',
+    'bootstrap_region_well-footer' => '',
+    'bootstrap_region_well-page_top' => '',
+    'bootstrap_region_well-page_bottom' => '',
+    'bootstrap_anchors_fix' => 1,
+    'bootstrap_anchors_smooth_scrolling' => 1,
+    'bootstrap_popover_enabled' => 1,
+    'bootstrap_popover_animation' => 1,
+    'bootstrap_popover_html' => 0,
+    'bootstrap_popover_placement' => 'right',
+    'bootstrap_popover_selector' => '',
+    'bootstrap_popover_trigger' => array(
+      'click' => 'click',
+      'hover' => 0,
+      'focus' => 0,
+      'manual' => 0,
+    ),
+    'bootstrap_popover_title' => '',
+    'bootstrap_popover_content' => '',
+    'bootstrap_popover_delay' => '0',
+    'bootstrap_popover_container' => 'body',
+    'bootstrap_tooltip_enabled' => 1,
+    'bootstrap_tooltip_descriptions' => 1,
+    'bootstrap_tooltip_animation' => 1,
+    'bootstrap_tooltip_html' => 0,
+    'bootstrap_tooltip_placement' => 'auto left',
+    'bootstrap_tooltip_selector' => '',
+    'bootstrap_tooltip_trigger' => array(
+      'hover' => 'hover',
+      'focus' => 'focus',
+      'click' => 0,
+      'manual' => 0,
+    ),
+    'bootstrap_tooltip_delay' => '0',
+    'bootstrap_tooltip_container' => 'body',
+    'bootstrap_cdn' => '3.0.2',
+    'bootstrap_bootswatch' => '',
+    'bootstrap_rebuild_registry' => 0,
+    'bootstrap_toggle_jquery_error' => 0,
+    'favicon_mimetype' => 'image/png',
+  );
+  $export['theme_cart_theme_settings'] = $strongarm;
 
   return $export;
 }

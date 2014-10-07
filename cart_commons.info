@@ -83,6 +83,7 @@ features[menu_custom][] = menu-editing
 features[menu_custom][] = user-menu
 features[menu_links][] = user-menu_add-exhibit:node/add/cart-exhibition
 features[menu_links][] = user-menu_editing-tools:editing
+features[menu_links][] = user-menu_log-in:user/login
 features[metatag][] = global
 features[metatag][] = global:frontpage
 features[staticmap_presets][] = cart_staticmap_teaser

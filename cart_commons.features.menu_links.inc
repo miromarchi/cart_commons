@@ -10,8 +10,8 @@
 function cart_commons_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: user-menu_add-exhibit:node/add/cart-exhibition
-  $menu_links['user-menu_add-exhibit:node/add/cart-exhibition'] = array(
+  // Exported menu link: user-menu:node/add/cart-exhibition
+  $menu_links['user-menu:node/add/cart-exhibition'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'node/add/cart-exhibition',
     'router_path' => 'node/add/cart-exhibition',
@@ -25,7 +25,7 @@ function cart_commons_menu_default_menu_links() {
           1 => 'btn-success',
         ),
       ),
-      'identifier' => 'user-menu_add-exhibit:node/add/cart-exhibition',
+      'identifier' => 'user-menu:node/add/cart-exhibition',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -35,14 +35,14 @@ function cart_commons_menu_default_menu_links() {
     'weight' => -7,
     'customized' => 1,
   );
-  // Exported menu link: user-menu_editing-tools:editing
-  $menu_links['user-menu_editing-tools:editing'] = array(
+  // Exported menu link: user-menu:editing
+  $menu_links['user-menu:editing'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'editing',
     'router_path' => 'editing',
     'link_title' => 'Editing tools',
     'options' => array(
-      'identifier' => 'user-menu_editing-tools:editing',
+      'identifier' => 'user-menu:editing',
     ),
     'module' => 'system',
     'hidden' => 0,
@@ -52,14 +52,14 @@ function cart_commons_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
   );
-  // Exported menu link: user-menu_log-in:user/login
-  $menu_links['user-menu_log-in:user/login'] = array(
+  // Exported menu link: user-menu:user/login
+  $menu_links['user-menu:user/login'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'user/login',
     'router_path' => 'user/login',
     'link_title' => 'Log in',
     'options' => array(
-      'identifier' => 'user-menu_log-in:user/login',
+      'identifier' => 'user-menu:user/login',
     ),
     'module' => 'system',
     'hidden' => -1,
@@ -68,16 +68,15 @@ function cart_commons_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 0,
-    'parent_identifier' => 'user-menu_my-account:user',
   );
-  // Exported menu link: user-menu_log-out:user/logout
-  $menu_links['user-menu_log-out:user/logout'] = array(
+  // Exported menu link: user-menu:user/logout
+  $menu_links['user-menu:user/logout'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'user/logout',
     'router_path' => 'user/logout',
     'link_title' => 'Log out',
     'options' => array(
-      'identifier' => 'user-menu_log-out:user/logout',
+      'identifier' => 'user-menu:user/logout',
     ),
     'module' => 'system',
     'hidden' => 0,

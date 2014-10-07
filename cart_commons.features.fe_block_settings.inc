@@ -29,12 +29,6 @@ about
 node/*',
     'roles' => array(),
     'themes' => array(
-      'bartik' => array(
-        'region' => 'footer',
-        'status' => 1,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
       'cart_theme' => array(
         'region' => 'footer',
         'status' => 1,

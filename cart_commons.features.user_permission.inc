@@ -62,45 +62,6 @@ function cart_commons_user_default_permissions() {
     'module' => 'user',
   );
 
-  // Exported permission: 'create cart_catalog content'.
-  $permissions['create cart_catalog content'] = array(
-    'name' => 'create cart_catalog content',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'create cart_exhibition content'.
-  $permissions['create cart_exhibition content'] = array(
-    'name' => 'create cart_exhibition content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'create cart_organization content'.
-  $permissions['create cart_organization content'] = array(
-    'name' => 'create cart_organization content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'create cart_person content'.
-  $permissions['create cart_person content'] = array(
-    'name' => 'create cart_person content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -111,45 +72,6 @@ function cart_commons_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: 'delete any cart_catalog content'.
-  $permissions['delete any cart_catalog content'] = array(
-    'name' => 'delete any cart_catalog content',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete any cart_exhibition content'.
-  $permissions['delete any cart_exhibition content'] = array(
-    'name' => 'delete any cart_exhibition content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete any cart_organization content'.
-  $permissions['delete any cart_organization content'] = array(
-    'name' => 'delete any cart_organization content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete any cart_person content'.
-  $permissions['delete any cart_person content'] = array(
-    'name' => 'delete any cart_person content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'delete any image files'.
   $permissions['delete any image files'] = array(
     'name' => 'delete any image files',
@@ -158,45 +80,6 @@ function cart_commons_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'file_entity',
-  );
-
-  // Exported permission: 'delete own cart_catalog content'.
-  $permissions['delete own cart_catalog content'] = array(
-    'name' => 'delete own cart_catalog content',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own cart_exhibition content'.
-  $permissions['delete own cart_exhibition content'] = array(
-    'name' => 'delete own cart_exhibition content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own cart_organization content'.
-  $permissions['delete own cart_organization content'] = array(
-    'name' => 'delete own cart_organization content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own cart_person content'.
-  $permissions['delete own cart_person content'] = array(
-    'name' => 'delete own cart_person content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
   );
 
   // Exported permission: 'delete own image files'.
@@ -302,45 +185,6 @@ function cart_commons_user_default_permissions() {
     'module' => 'file_entity',
   );
 
-  // Exported permission: 'edit any cart_catalog content'.
-  $permissions['edit any cart_catalog content'] = array(
-    'name' => 'edit any cart_catalog content',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit any cart_exhibition content'.
-  $permissions['edit any cart_exhibition content'] = array(
-    'name' => 'edit any cart_exhibition content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit any cart_organization content'.
-  $permissions['edit any cart_organization content'] = array(
-    'name' => 'edit any cart_organization content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit any cart_person content'.
-  $permissions['edit any cart_person content'] = array(
-    'name' => 'edit any cart_person content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit any image files'.
   $permissions['edit any image files'] = array(
     'name' => 'edit any image files',
@@ -349,45 +193,6 @@ function cart_commons_user_default_permissions() {
       'editor' => 'editor',
     ),
     'module' => 'file_entity',
-  );
-
-  // Exported permission: 'edit own cart_catalog content'.
-  $permissions['edit own cart_catalog content'] = array(
-    'name' => 'edit own cart_catalog content',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own cart_exhibition content'.
-  $permissions['edit own cart_exhibition content'] = array(
-    'name' => 'edit own cart_exhibition content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own cart_organization content'.
-  $permissions['edit own cart_organization content'] = array(
-    'name' => 'edit own cart_organization content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own cart_person content'.
-  $permissions['edit own cart_person content'] = array(
-    'name' => 'edit own cart_person content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-    ),
-    'module' => 'node',
   );
 
   // Exported permission: 'edit own image files'.

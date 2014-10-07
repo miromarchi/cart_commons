@@ -35,9 +35,46 @@ function cart_commons_menu_default_menu_links() {
     'weight' => -7,
     'customized' => 1,
   );
+  // Exported menu link: user-menu_editing-tools:editing
+  $menu_links['user-menu_editing-tools:editing'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'editing',
+    'router_path' => 'editing',
+    'link_title' => 'Editing tools',
+    'options' => array(
+      'identifier' => 'user-menu_editing-tools:editing',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+  );
+  // Exported menu link: user-menu_log-in:user/login
+  $menu_links['user-menu_log-in:user/login'] = array(
+    'menu_name' => 'user-menu',
+    'link_path' => 'user/login',
+    'router_path' => 'user/login',
+    'link_title' => 'Log in',
+    'options' => array(
+      'identifier' => 'user-menu_log-in:user/login',
+    ),
+    'module' => 'system',
+    'hidden' => -1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'user-menu_my-account:user',
+  );
   // Translatables
   // Included for use with string extractors like potx.
   t('Add exhibit');
+  t('Editing tools');
+  t('Log in');
 
 
   return $menu_links;

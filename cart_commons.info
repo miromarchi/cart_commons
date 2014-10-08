@@ -135,6 +135,7 @@ features[user_role][] = editor
 features[variable][] = configurable_timezones
 features[variable][] = date_default_timezone
 features[variable][] = date_format_cart_date_day
+features[variable][] = entity_view_modes
 features[variable][] = ip_geoloc_exclude_pages
 features[variable][] = ip_geoloc_include_pages
 features[variable][] = ip_geoloc_roles_to_reverse_geocode

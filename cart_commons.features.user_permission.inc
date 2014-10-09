@@ -138,15 +138,6 @@ function cart_commons_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
-  // Exported permission: 'delete terms in cart_org_types'.
-  $permissions['delete terms in cart_org_types'] = array(
-    'name' => 'delete terms in cart_org_types',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'taxonomy',
-  );
-
   // Exported permission: 'delete terms in cart_venue_types'.
   $permissions['delete terms in cart_venue_types'] = array(
     'name' => 'delete terms in cart_venue_types',
@@ -235,15 +226,6 @@ function cart_commons_user_default_permissions() {
   // Exported permission: 'edit terms in cart_media_types'.
   $permissions['edit terms in cart_media_types'] = array(
     'name' => 'edit terms in cart_media_types',
-    'roles' => array(
-      'editor' => 'editor',
-    ),
-    'module' => 'taxonomy',
-  );
-
-  // Exported permission: 'edit terms in cart_org_types'.
-  $permissions['edit terms in cart_org_types'] = array(
-    'name' => 'edit terms in cart_org_types',
     'roles' => array(
       'editor' => 'editor',
     ),

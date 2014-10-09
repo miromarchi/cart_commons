@@ -80,8 +80,8 @@ calendar/*';
   $strongarm->value = array(
     1 => '1',
     2 => '2',
+    4 => '4',
     3 => 0,
-    4 => 0,
   );
   $export['ip_geoloc_roles_to_reverse_geocode'] = $strongarm;
 

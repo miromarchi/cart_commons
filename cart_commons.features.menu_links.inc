@@ -17,6 +17,7 @@ function cart_commons_menu_default_menu_links() {
     'router_path' => 'node/add/cart-exhibition',
     'link_title' => 'Add exhibit',
     'options' => array(
+      'identifier' => 'user-menu_add-exhibit:node/add/cart-exhibition',
       'attributes' => array(
         'title' => 'Add new exhibition to the database',
         'id' => 'btn-add-exhibit',
@@ -25,7 +26,6 @@ function cart_commons_menu_default_menu_links() {
           1 => 'btn-success',
         ),
       ),
-      'identifier' => 'user-menu_add-exhibit:node/add/cart-exhibition',
     ),
     'module' => 'menu',
     'hidden' => 0,

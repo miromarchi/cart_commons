@@ -106,6 +106,7 @@ function cart_commons_user_default_permissions() {
   $permissions['delete terms in cart_exhibit_types'] = array(
     'name' => 'delete terms in cart_exhibit_types',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -115,6 +116,7 @@ function cart_commons_user_default_permissions() {
   $permissions['delete terms in cart_languages'] = array(
     'name' => 'delete terms in cart_languages',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -124,6 +126,7 @@ function cart_commons_user_default_permissions() {
   $permissions['delete terms in cart_main_exhibition'] = array(
     'name' => 'delete terms in cart_main_exhibition',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -133,6 +136,7 @@ function cart_commons_user_default_permissions() {
   $permissions['delete terms in cart_media_types'] = array(
     'name' => 'delete terms in cart_media_types',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -142,6 +146,7 @@ function cart_commons_user_default_permissions() {
   $permissions['delete terms in cart_venue_types'] = array(
     'name' => 'delete terms in cart_venue_types',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -151,6 +156,7 @@ function cart_commons_user_default_permissions() {
   $permissions['delete terms in cart_years'] = array(
     'name' => 'delete terms in cart_years',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -200,6 +206,7 @@ function cart_commons_user_default_permissions() {
   $permissions['edit terms in cart_exhibit_types'] = array(
     'name' => 'edit terms in cart_exhibit_types',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -209,6 +216,7 @@ function cart_commons_user_default_permissions() {
   $permissions['edit terms in cart_languages'] = array(
     'name' => 'edit terms in cart_languages',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -218,6 +226,7 @@ function cart_commons_user_default_permissions() {
   $permissions['edit terms in cart_main_exhibition'] = array(
     'name' => 'edit terms in cart_main_exhibition',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -227,6 +236,7 @@ function cart_commons_user_default_permissions() {
   $permissions['edit terms in cart_media_types'] = array(
     'name' => 'edit terms in cart_media_types',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -236,6 +246,7 @@ function cart_commons_user_default_permissions() {
   $permissions['edit terms in cart_venue_types'] = array(
     'name' => 'edit terms in cart_venue_types',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',
@@ -245,6 +256,7 @@ function cart_commons_user_default_permissions() {
   $permissions['edit terms in cart_years'] = array(
     'name' => 'edit terms in cart_years',
     'roles' => array(
+      'administrator' => 'administrator',
       'editor' => 'editor',
     ),
     'module' => 'taxonomy',

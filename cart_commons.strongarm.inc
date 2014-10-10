@@ -123,6 +123,39 @@ calendar/*';
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'maintenance_mode_message';
+  $strongarm->value = '	<div class="norow norow-1 clearfix">
+        <div class="col-md-6 col-md-offset-3 column text-center">
+	        <div class="front-focus">
+                <img src="sites/default/files/structure/logoexp1.png" class="front-logo" /><img src="sites/default/files/structure/logoexpr1.png" class="front-logo-r" />
+                <h1>
+	                CUBAN ART WORLDWIDE
+                </h1>
+                <p>
+                    Discover Cuban art exhibitions on Earth!
+                </p>
+            </div>
+        </div>
+    </div>
+<!--    <div class="norow clearfix striped"></div> -->
+    <div class="norow norow-2 clearfix comingsoon">
+	    <div class="col-md-6 col-md-offset-3 text-center">
+	    <div class="comingsoon-title">COMING SOON!</div>
+        </div>
+    </div>
+    <div class="norow norow-3 clearfix">
+	    <div class="col-md-6 col-md-offset-3 text-center">
+	    <h2>About</h2>
+	    <p>
+	        Cuban Art Worldwide is a project realized in collaboration with the Republic of Cuba Pavilion at the 56th International Art Exhibition, La Biennale di Venezia in order to promote Contemporary Cuban Art and offer an easy-to-use tool to find exhibitions displaying the work of Cuban artists around the world. 
+	    </p>
+        </div>
+    </div>';
+  $export['maintenance_mode_message'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'page_manager_node_view_disabled';
   $strongarm->value = FALSE;
   $export['page_manager_node_view_disabled'] = $strongarm;
@@ -257,7 +290,7 @@ calendar/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'statistics_count_content_views';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['statistics_count_content_views'] = $strongarm;
 
   $strongarm = new stdClass();

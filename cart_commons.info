@@ -141,6 +141,7 @@ features[variable][] = jquery_update_compression_type
 features[variable][] = jquery_update_jquery_admin_version
 features[variable][] = jquery_update_jquery_cdn
 features[variable][] = jquery_update_jquery_version
+features[variable][] = maintenance_mode_message
 features[variable][] = page_manager_node_view_disabled
 features[variable][] = pathauto_file_audio_pattern
 features[variable][] = pathauto_file_document_pattern

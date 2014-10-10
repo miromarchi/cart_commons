@@ -250,7 +250,7 @@ function cart_commons_field_default_field_bases() {
         'year' => 'year',
       ),
       'timezone_db' => 'UTC',
-      'todate' => 'optional',
+      'todate' => 'required',
       'tz_handling' => 'site',
     ),
     'translatable' => 0,

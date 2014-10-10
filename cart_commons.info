@@ -3,7 +3,6 @@ core = 7.x
 package = CART
 version = 7.x-1.0-alpha3
 project = cart_commons
-dependencies[] = addressfield
 dependencies[] = block
 dependencies[] = cart_views_pages
 dependencies[] = ctools

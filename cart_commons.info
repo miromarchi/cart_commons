@@ -39,6 +39,7 @@ features[features_api][] = api:2
 features[field_base][] = body
 features[field_base][] = field_cart_artist
 features[field_base][] = field_cart_artist_other
+features[field_base][] = field_cart_based
 features[field_base][] = field_cart_blog_link
 features[field_base][] = field_cart_catalog
 features[field_base][] = field_cart_curator

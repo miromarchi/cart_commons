@@ -6,7 +6,7 @@ function cart_commons_date_formats() {
   return array(
     // Creates a new format for a new, custom format type.
     array(
-      'type' => 'date_format_cart_date_day',
+      'type' => 'cart_date_day',
       'format' => 'Y M d',
       'locales' => array(),
     ),
@@ -17,6 +17,6 @@ function cart_commons_date_formats() {
  */
 function cart_commons_date_format_types() {
   return array(
-    'date_format_cart_date_day' => t('Cart day'),
+    'cart_date_day' => t('Cart day'),
   );
 }

@@ -1,7 +1,7 @@
 name = Common stuff
 core = 7.x
 package = CART
-version = 7.x-1.0-alpha3
+version = 7.x-1.0-alpha4
 project = cart_commons
 dependencies[] = block
 dependencies[] = cart_views_pages
@@ -83,6 +83,7 @@ features[image][] = cart_img_square_icon
 features[image][] = cart_img_square_thumb
 features[menu_custom][] = menu-editing
 features[menu_custom][] = user-menu
+features[menu_links][] = menu-editing_import-calendar:import/cart_feeds_ical
 features[menu_links][] = user-menu_add-exhibit:node/add/cart-exhibition
 features[menu_links][] = user-menu_editing-tools:editing
 features[metatag][] = global

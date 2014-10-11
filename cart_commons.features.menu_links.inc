@@ -10,6 +10,26 @@
 function cart_commons_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: menu-editing_import-calendar:import/cart_feeds_ical
+  $menu_links['menu-editing_import-calendar:import/cart_feeds_ical'] = array(
+    'menu_name' => 'menu-editing',
+    'link_path' => 'import/cart_feeds_ical',
+    'router_path' => 'import/%',
+    'link_title' => 'Import calendar',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Import calendar events from google shared (public) calendar "cuban art calendar".',
+      ),
+      'identifier' => 'menu-editing_import-calendar:import/cart_feeds_ical',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 2,
+    'customized' => 1,
+  );
   // Exported menu link: user-menu_add-exhibit:node/add/cart-exhibition
   $menu_links['user-menu_add-exhibit:node/add/cart-exhibition'] = array(
     'menu_name' => 'user-menu',
@@ -56,6 +76,7 @@ function cart_commons_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('Add exhibit');
   t('Editing tools');
+  t('Import calendar');
 
 
   return $menu_links;

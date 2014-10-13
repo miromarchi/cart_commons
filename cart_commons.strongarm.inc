@@ -129,7 +129,7 @@ calendar/*';
 	        <div class="front-focus">
                 <img src="sites/default/files/structure/logoexp1.png" class="front-logo" /><img src="sites/default/files/structure/logoexpr1.png" class="front-logo-r" />
                 <h1>
-	                CUBAN ART WORLDWIDE
+	                CUBAN ART<br />WORLD<span class="invisible-separator"> </span>WIDE
                 </h1>
                 <p>
                     Discover Cuban art exhibitions on Earth!
@@ -143,7 +143,7 @@ calendar/*';
 	    <div class="comingsoon-title">COMING SOON!</div>
         </div>
     </div>
-    <div class="norow norow-3 clearfix">
+    <div class="norow norow-3 clearfix bgCanvas">
 	    <div class="col-md-6 col-md-offset-3 text-center">
 	    <h2>About</h2>
 	    <p>

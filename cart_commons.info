@@ -65,6 +65,7 @@ features[field_base][] = field_cart_organizator
 features[field_base][] = field_cart_publisher
 features[field_base][] = field_cart_representedby
 features[field_base][] = field_cart_rss_link
+features[field_base][] = field_cart_shop_link
 features[field_base][] = field_cart_sponsor
 features[field_base][] = field_cart_textby
 features[field_base][] = field_cart_twitter_link

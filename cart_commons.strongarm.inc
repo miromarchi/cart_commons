@@ -49,6 +49,10 @@ function cart_commons_strongarm() {
         'label' => 'Cart sponsor',
         'custom settings' => 1,
       ),
+      'cart_vmode_publisher' => array(
+        'label' => 'Cart publisher',
+        'custom settings' => 1,
+      ),
     ),
   );
   $export['entity_view_modes'] = $strongarm;
@@ -132,7 +136,7 @@ calendar/*';
 	                CUBAN ART<br />WORLD<span class="invisible-separator"> </span>WIDE
                 </h1>
                 <p>
-                    Discover Cuban art exhibitions on Earth!
+                    Discover Cuban Art Exhibitions on Earth!
                 </p>
             </div>
         </div>
@@ -140,15 +144,13 @@ calendar/*';
 <!--    <div class="norow clearfix striped"></div> -->
     <div class="norow norow-2 clearfix comingsoon">
 	    <div class="col-md-6 col-md-offset-3 text-center">
-	    <div class="comingsoon-title">COMING SOON!</div>
-        </div>
+	      <div class="comingsoon-title">COMING SOON!</div>
+      </div>
     </div>
     <div class="norow norow-3 clearfix bgCanvas">
 	    <div class="col-md-6 col-md-offset-3 text-center">
 	    <h2>About</h2>
-	    <p>
-	        Cuban Art Worldwide is a project realized in collaboration with the Republic of Cuba Pavilion at the 56th International Art Exhibition, La Biennale di Venezia in order to promote Contemporary Cuban Art and offer an easy-to-use tool to find exhibitions displaying the work of Cuban artists around the world. 
-	    </p>
+	    <p>Cuban Art Worldwide is a project by Maretti Editore realized in collaboration with the Republic of Cuba Pavilion at the 56th International Art Exhibition, La Biennale di Venezia 2015. It promotes Contemporary Cuban Art and offers an easy-to-use tool to find exhibitions displaying the work of Cuban artists around the world.</p>
         </div>
     </div>';
   $export['maintenance_mode_message'] = $strongarm;

@@ -26,7 +26,7 @@ function cart_commons_default_fe_block_boxes() {
 					<div class="tb-rl">{</div>
 					<p>
 					    <img class="img-responsive pull-left" src="<?php print base_path() . \'sites/default/files/structure/arteverona2014.jpg\';?>" /><img class="img-responsive pull-left" src="<?php print base_path() . \'sites/default/files/structure/artelibro.jpg\'?>" />
-				    </p>
+				  </p>
 				</div>
 				<div class="col-md-4 column text-center">
 					<h3>
@@ -35,7 +35,9 @@ function cart_commons_default_fe_block_boxes() {
 					<p>...</p>
 					<div class="tb-rl">{</div>
 					<p>
-					    <a class="btn btn-default href="about">About the project</a> <a class="btn btn-default href="about">Team / who we are</a>
+					    <a class="btn btn-default btn-margin" href="/about#about>">About the project</a>
+					    <a class="btn btn-default btn-margin" href="/about#team">Team / who we are</a>
+					    <a class="btn btn-default btn-margin" href="/about#participate">How to participate</a>
 				    </p>
 				</div>
 				<div class="col-md-4 column text-center">
@@ -45,7 +47,7 @@ function cart_commons_default_fe_block_boxes() {
 					<p>...</p>
 					<div class="tb-rl">{</div>
                     <p>
-                        <a class="btn btn-default" href="rss.xml" target="_blank" title="Exhibitions RSS Feed - Cuban Art Worldwide"><i class="fa fa-rss-square fa-lg"></i> Exhibitions</a>
+                        <a class="btn btn-default btn-margin" href="rss.xml" target="_blank" title="Exhibitions RSS Feed - Cuban Art Worldwide"><i class="fa fa-rss-square fa-lg"></i> Exhibitions</a>
                     </p>
 				</div><!--col-md-4-->
 			</div><!--row-->
